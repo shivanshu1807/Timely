@@ -1,0 +1,30 @@
+header h1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: black;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0px 200px 0px;
+}
+.container{
+    color: aliceblue;
+    box-shadow: 0px 0px 10px #202020;
+    margin: 100px 0px 100px 0px;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    margin: 0px 100px 0px 100px;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #202020;
+    color: aliceblue;
+}

@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: black;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  
+  h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 40px 0px 20px;
+  }
+  
+  h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+  }
+  .countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+  }
+  #endtime {
+    padding: 5px;
+    width: 200px;
+    font-size: 12px;
+  }
+  .countdown-content {
+    padding: 10px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+  }
+  .countdown-content span {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgb(0, 37, 204);
+    display: inline-block;
+  }
+  .btn {
+    display: block;
+    padding: 3px 20px;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    background: rgb(0, 37, 204);
+    font-size: 16px;
+    font-weight: bold;
+    color: #232425;
+    cursor: pointer;
+  }
+  a {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background: #fff;
+  }
+  .btn:hover {
+    background: rgb(0, 37, 204);
+  }
+  .btn-disabled {
+    cursor: default;
+    pointer-events: none;
+    background: #ccc;
+  }
+  .smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  
+  footer {
+    font-size: 12px;
+    clear: both;
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  }
+  

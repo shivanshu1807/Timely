@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px #202020;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#buttons{
+    display: flex;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    box-shadow: none;
+    transition: all 0.5;
+}
